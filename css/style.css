@@ -1,0 +1,137 @@
+/*.cabecalho,
+.imagens,
+.nomes {
+    margin-left: 150px;
+    margin-right: 150px;
+} */
+
+header {
+    width: 100%;
+    background-color: #d4bb73;
+}
+
+header img {
+    padding-top: 20px;
+}
+
+body {
+    background-color: rgb(15, 15, 15);
+}
+
+.cabecalho h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-top: 30px;
+    font-style: oblique;
+}
+
+.cabecalho h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-style: inherit;
+    color: rgba(241, 50, 66, 0.651);
+}
+
+a {
+    color: rgba(70, 165, 209, 0.884);
+}
+
+.informacao {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.imagens {
+    width: 12em;
+    height: 20em;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.897) 0%, rgba(255, 255, 255, 0.897) 100%);
+    /* parte de cima e debaixo do card */
+    color: black;
+    margin-bottom: 7em;
+    box-shadow: 0px 0px 5px rgba(124, 149, 233, 0.829), 0px 0px 30px rgba(124, 149, 233, 0.829);
+
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.imagens img {
+    width: 100%;
+}
+
+.botoes {
+    width: 25%;
+    display: inline-block;
+}
+
+.botoes1 {
+    width: 25%;
+    display: inline-block;
+}
+
+.botoes2 {
+    width: 25%;
+    display: inline-block;
+}
+
+.botoes3 {
+    width: 25%;
+    display: inline-block;
+}
+
+.botoes4 {
+    width: 25%;
+    display: inline-block;
+}
+
+.botoes5 {
+    width: 25%;
+    display: inline-block;
+}
+
+.texto p {
+    padding-top: 5px;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer {
+    width: 100%;
+    background: #d4bb73;
+}
+
+.rodape {
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.rodape img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 190px;
+    padding-top: 1em;
+}
+
+@media screen and (max-width: 500px) {
+
+    .botoes,
+    .botoes1,
+    .botoes3,
+    .botoes4,
+    .botoes5 {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .header,
+    footer {
+        width: 0%;
+    }
+}
